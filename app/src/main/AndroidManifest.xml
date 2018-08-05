@@ -42,12 +42,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".DriverMapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".PassengerAccountCreateActivity" />
         <activity
             android:name=".MapsActivity2"
-            android:label="@string/title_activity_maps2"></activity>
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".PassengerMapsActivity"
+            android:label="@string/title_activity_passenger_maps"></activity>
     </application>
 
 </manifest>

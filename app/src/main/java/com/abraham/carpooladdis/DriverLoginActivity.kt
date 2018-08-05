@@ -80,7 +80,7 @@ class DriverLoginActivity : AppCompatActivity() {
     }
 
     private fun updateUI() {
-        val intent = Intent(this@DriverLoginActivity, MapsActivity::class.java)
+        val intent = Intent(this@DriverLoginActivity, DriverMapsActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
     }

@@ -13,6 +13,7 @@
     <string name="i_am_a_driver">I\'m a driver</string>
     <string name="i_am_a_passenger">I\'m a passenger</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_passenger_maps">Map</string>
 
 
 </resources>
