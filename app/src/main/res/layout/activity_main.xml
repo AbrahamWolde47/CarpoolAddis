@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abraham.carpooladdis.MainActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/carpool_bg">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:paddingTop="350dp"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/driver"
+        style="@style/viewCustom"
+
+        android:background="@color/colorAccent"
+        android:text="@string/i_am_a_driver"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/passenger"
+        style="@style/viewCustom"
+        android:background="@color/colorAccent"
+        android:text="@string/i_am_a_passenger"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
